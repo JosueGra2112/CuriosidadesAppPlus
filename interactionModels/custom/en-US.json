@@ -1,0 +1,51 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "stop",
+            "cancel",
+            "exit"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "hi"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "GetRandomFactIntent",
+          "samples": [
+            "Tell me something fun",
+            "Give me an interesting fact",
+            "Tell me a fun fact"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "fun facts plus"
+    }
+  }
+}

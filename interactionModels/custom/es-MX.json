@@ -1,0 +1,47 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "para",
+            "cancelar",
+            "salir"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "GetRandomFactIntent",
+          "samples": [
+            "Dame un dato curioso",
+            "Cuéntame algo interesante",
+            "Dime un dato curioso"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "datos curiosos plus"
+    }
+  }
+}
